@@ -3,11 +3,11 @@
 ### Date created
 Include the date you created this project and README file.
 
-### Project Title
+### Udacity Bikeshare Project
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This project utilizes data from a Bikeshare service that is ultimately looking to 
 
 ### Files used
 Include the files used
