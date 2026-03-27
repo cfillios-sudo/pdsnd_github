@@ -7,7 +7,7 @@ Created this read me file on 3/26/2026
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This project utilizes data from the Bikeshare Python project to test version control skills. 
 
 ### Files used
 Include the files used
