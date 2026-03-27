@@ -3,19 +3,16 @@
 ### 03/26/2026
 Created this read me file on 3/26/2026
 
-<<<<<<< HEAD
 ### Udacity Bikeshare Project
 Replace the Project Title
 
 ### Description
 This project utilizes data from a Bikeshare service that is ultimately looking to 
-=======
 ### Udacity Project
 Replace the Project Title
 
 ### Description
 This project utilizes data from the Bikeshare Python project to test version control skills. 
->>>>>>> documentation
 
 ### Files used
 Include the files used
