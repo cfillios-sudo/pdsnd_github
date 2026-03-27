@@ -38,11 +38,11 @@ def get_filters():
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    while True:
-        day = input("Choose a day (all, monday, ... , sunday): ").lower()
-        if day in valid_days:
-            break
-        print("Invalid day. Please try again.\n")
+    days = ['all','monday','tuesday','wednesday','thursday','friday','saturday','sunday']
+    day = input("Enter day of week (all, monday, ..., sunday): ").lower()
+    while day not in days:
+        day = input("Invalid. Enter day again: ").lower()
+
 
     print('-'*40)
     return city, month, day
@@ -70,8 +70,8 @@ def load_data(city, month, day):
 
     # MONTH FILTER
     if month != 'all':
-        month_index = ['january', 'february', 'march', 'april', 'may', 'june'].index(month) + 1
-        df = df[df['month'] == month_index]
+        df = df[df['month'] == month]
+
 
     # DAY FILTER
     if day != 'all':
